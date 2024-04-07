@@ -1,0 +1,75 @@
+/* body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/anh_register.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+} */
+.forget_form{
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    margin: 100px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 550px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, .2);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, .5);
+    display: flex;
+}
+.forget_pass_box{
+    width: 1000px;
+    height: 550px;
+    box-sizing: border-box;
+    padding: 140px 60px;
+    background-color: rgba(255, 255, 255, .7);
+}
+.forget_pass_box h3{
+    margin: 0;
+    padding: 0 0 20px;
+    color: #343a40;
+    text-align: center;
+}
+.forget_pass_box input[type="email"]{
+    border: none;
+    border-bottom: 2px solid #262626;
+    outline: none;
+    width: 500px;
+    height: 40px;
+    color: #262626;
+    background: transparent;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin: 10px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.forget_pass_box a button{
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    background: #343a40;
+    cursor: pointer;
+    margin: 20px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 30px;
+    border-radius: 30px;
+}
+.return_login p a{
+    color: #0080ff;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.return_login h5{
+    color: #343a40;
+}
