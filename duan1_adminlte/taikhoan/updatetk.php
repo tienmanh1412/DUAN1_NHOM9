@@ -42,7 +42,7 @@
         <input type="hidden" name="id" value="<?php if(isset($id) && ($id > 0)) echo $id; ?>">
             <input type="submit" name="suatk" class="btn btn-primary" value="Cập nhật"></input>
             <input type="reset" class="btn btn-outline-primary" value="Nhập lại"></input>
-            <a href="index.php?act=dstk"><button type="button" class="btn btn-outline-primary">Danh sách <i class="fa-solid fa-right-long"></i></button></a>
+            <a href="index.php?act=dskh"><button type="button" class="btn btn-outline-primary">Danh sách <i class="fa-solid fa-right-long"></i></button></a>
         </div>
     </form>
     <?php
