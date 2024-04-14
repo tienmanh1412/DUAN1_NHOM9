@@ -187,7 +187,7 @@
                                     "vnp_Locale" => $vnp_Locale,
                                     "vnp_OrderInfo" => "Thanh toan GD: " . $vnp_TxnRef,
                                     "vnp_OrderType" => "other",
-                                    "vnp_ReturnUrl" => $vnp_Returnurl,
+                                    "vnp_ReturnUrl" => "http://localhost/duan1/view/cart/thank.php",
                                     "vnp_TxnRef" => $vnp_TxnRef,
                                     "vnp_ExpireDate"=> $expire
                                 );
@@ -262,7 +262,7 @@
                                 $orderInfo = "Thanh toán qua MoMo";
                                 $amount = $thanhtien;
                                 $orderId = $code_cart;
-                                $redirectUrl = "http://localhost/PRO1014_WD18324/DUAN1_TEAM_12/Website_DUAN1/view/cart/thank.php";
+                                $redirectUrl = "http://localhost/duan1/view/cart/thank.php";
                                 $ipnUrl = "https://webhook.site/b3088a6a-2d17-4f8d-a383-71389a6c600b";
                                 $extraData = "";
     
