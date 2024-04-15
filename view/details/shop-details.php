@@ -128,7 +128,7 @@
                             </div>
                             <br><br>
                           
-                            <input id="addToCartBtn" data-id="<?= $id; ?>" type='submit' class='primary-btn' name='cart' value="Thêm vào giỏ hàng" onclick="addToCart()"></input>
+                            <input id="addToCartBtn" data-id="<?= $id; ?>" type='submit' class='primary-btn' name='cart' value="Thêm vào giỏ hàng" onclick="addToCart(event)"></input>
                         </form>
                         <?php } ?>
                     </div>
@@ -255,6 +255,7 @@
     });
 
     function addToCart(event) {
+         
         var isValid = true; // Thay bằng kiểm tra điều kiện của bạn
 
         // Kiểm tra xem đã chọn màu và size chưa
@@ -264,6 +265,8 @@
         if (!selectedColor || !selectedSize) {
             isValid = false;
             alert("Vui lòng chọn màu và size trước khi thêm vào giỏ hàng!");
+            event.preventDefault();
         }
+        
     }
 </script>
